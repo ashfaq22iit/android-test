@@ -1,0 +1,23 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "My first socket.io chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tahir khan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "crypto": "^1.0.1",
+    "express": "^4.10.2",
+    "jsonwebtoken": "^8.1.0",
+    "merge": "^1.2.0",
+    "mongoose": "^4.9.8",
+    "mysql": "^2.10.2",
+    "request": "^2.83.0",
+    "socket.io": "^1.7.2"
+  }
+}
